@@ -4,6 +4,7 @@
 
 # IntelliJ project files
 .idea
+.idea/*
 node_modules
 explain.txt
 package-lock.json
