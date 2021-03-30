@@ -1,0 +1,30 @@
+{
+  "name": "todo",
+  "version": "0.0.1",
+  "description": "todo",
+  "main": "index.js",
+  "scripts": {
+    "build": "webpack --mode production",
+    "dev": "webpack --mode development",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/wei-new/TODO.git"
+  },
+  "author": "",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/wei-new/TODO/issues"
+  },
+  "homepage": "https://github.com/wei-new/TODO#readme",
+  "devDependencies": {
+    "webpack": "^5.28.0"
+  },
+  "dependencies": {
+    "css-loader": "^5.2.0",
+    "ts-loader": "^8.1.0",
+    "typescript": "^4.2.3",
+    "webpack-cli": "^4.6.0"
+  }
+}
